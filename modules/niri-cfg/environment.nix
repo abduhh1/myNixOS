@@ -1,0 +1,8 @@
+{ self, inputs, ... }: {
+  flake.niriModules.environment = {
+    NIXOS_OZONE_WL = "1";
+    XDG_CURRENT_DESKTOP = "Niri";
+    XDG_SESSION_TYPE = "wayland";
+    XDG_SESSION_DESKTOP = "Niri";
+  };
+}
