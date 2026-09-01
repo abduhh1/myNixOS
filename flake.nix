@@ -11,9 +11,6 @@
     wrapper-modules.url = "github:BirdeeHub/nix-wrapper-modules";
 
 
-    silentSDDM.url = "github:uiriansan/SilentSDDM";
-    silentSDDM.inputs.nixpkgs.follows = "nixpkgs";
-    murale-pr.url = "github:nixos/nixpkgs/pull/533687/head";
 
     serpantinum.url = "github:ilyamiro/serpantinum";
 

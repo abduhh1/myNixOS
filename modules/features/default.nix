@@ -2,7 +2,7 @@
   flake.nixosModules.features = { config, pkgs, ... }: {
 
     imports = [
-      self.nixosModules.sddm
+      self.nixosModules.greetd
       self.nixosModules.steam
       self.nixosModules.flatpak
       ];
