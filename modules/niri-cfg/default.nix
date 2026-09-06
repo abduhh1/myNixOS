@@ -30,6 +30,9 @@
         window-rules = self.niriModules.window-rules;
         spawn-at-startup = self.niriModules.spawn-at-startup pkgs lib;
         environment = self.niriModules.environment;
+        hotkey-overlay = {
+          skip-at-startup = _: {};
+        };
       };
 
     };

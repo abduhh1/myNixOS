@@ -47,7 +47,7 @@
           modules = {
             left = [ "workspaces" "media" "vis" ];
             center = [ "timedate" "sysmon" ];
-            right = [ "tray" [ "kb" "wifi" "bt" "vol" "bat" ] ];
+            right = [ "tray" [ "wifi" "bt" "vol" "bat" ] ];
           };
           opacity = 100;
           position = "top";
